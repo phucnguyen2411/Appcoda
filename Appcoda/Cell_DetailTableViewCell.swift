@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Cell_DetailTableViewCell: UITableViewCell , UITableViewDataSource{
+class Cell_DetailTableViewCell: UITableViewCell {
 
     
     @IBOutlet weak var fieldLabel: UILabel!
@@ -28,22 +28,6 @@ class Cell_DetailTableViewCell: UITableViewCell , UITableViewDataSource{
     
     
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //4 value in data table view
-        return 4
-    }
-    
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! Cell_DetailTableViewCell
-        //config cell
-        
-        
-        
-        
-        
-        return cell
-    }
-    
+       
     
 }

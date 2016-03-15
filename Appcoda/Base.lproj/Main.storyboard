@@ -77,7 +77,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="36" id="R8K-mX-3Po" customClass="Cell_DetailTableViewCell" customModule="Appcoda" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="36" id="R8K-mX-3Po" customClass="Cell_DetailTableViewCell" customModule="Appcoda" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="392" width="600" height="36"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R8K-mX-3Po" id="5Ze-vQ-L9m">
@@ -99,8 +99,8 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="fieldLabel" destination="jEE-jt-TUN" id="PSZ-9n-Kh9"/>
-                                            <outlet property="valueLabel" destination="3LO-IY-rxL" id="1nn-ua-VVF"/>
+                                            <outlet property="fieldLabel" destination="jEE-jt-TUN" id="lRm-4V-2TR"/>
+                                            <outlet property="valueLabel" destination="3LO-IY-rxL" id="utj-5q-HvL"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -117,6 +117,7 @@
                     <navigationItem key="navigationItem" id="3re-Fz-FhN"/>
                     <connections>
                         <outlet property="imageDel" destination="cX3-bj-hYl" id="pZ3-lp-HSw"/>
+                        <outlet property="tableview" destination="J1M-fG-Fr4" id="nZo-Z8-xmO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oga-Yi-xi8" userLabel="First Responder" sceneMemberID="firstResponder"/>

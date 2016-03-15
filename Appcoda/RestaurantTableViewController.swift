@@ -46,6 +46,18 @@ class RestaurantTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        //remove title back button
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
+        
+        
+        
+        
+        //change backgroud tableview
+        tableView.separatorColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/255.0, alpha: 0.8)
+        
+        
+        //custom tabbar
     }
 
     override func didReceiveMemoryWarning() {
@@ -139,6 +151,13 @@ class RestaurantTableViewController: UITableViewController {
     }
     
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.hidesBarsOnSwipe = true
+    }
+    
+    
     //next navigation, back to detail view model.
     
     //Using prepareForSegue send to key show detail in new view.
@@ -146,7 +165,7 @@ class RestaurantTableViewController: UITableViewController {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let destinationController = segue.destinationViewController as! DetailRes_ViewController
-                destinationController.imageDetail = restaurants[indexPath.row].image
+                destinationController.restaurant = restaurants[indexPath.row]
             }
         }
     }
