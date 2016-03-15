@@ -17,6 +17,7 @@
 		62E2B54C1C8EA4F5001845E8 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E2B54B1C8EA4F5001845E8 /* RestaurantTableViewController.swift */; };
 		62E2B54E1C8EA502001845E8 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E2B54D1C8EA502001845E8 /* RestaurantTableViewCell.swift */; };
 		62E61F0C1C9670DE003CC981 /* Cell_DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E61F0B1C9670DE003CC981 /* Cell_DetailTableViewCell.swift */; };
+		62E6DB5A1C987EC200FE6DA1 /* Map_ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6DB591C987EC200FE6DA1 /* Map_ViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		62E2B54B1C8EA4F5001845E8 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		62E2B54D1C8EA502001845E8 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		62E61F0B1C9670DE003CC981 /* Cell_DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell_DetailTableViewCell.swift; sourceTree = "<group>"; };
+		62E6DB591C987EC200FE6DA1 /* Map_ViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map_ViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				62E2B54D1C8EA502001845E8 /* RestaurantTableViewCell.swift */,
 				62DEB9E31C8EFD6400627123 /* DetailRes_ViewController.swift */,
 				62E61F0B1C9670DE003CC981 /* Cell_DetailTableViewCell.swift */,
+				62E6DB591C987EC200FE6DA1 /* Map_ViewViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				62E2B54C1C8EA4F5001845E8 /* RestaurantTableViewController.swift in Sources */,
 				62DEB9E41C8EFD6400627123 /* DetailRes_ViewController.swift in Sources */,
 				62E2B52E1C8E9CBE001845E8 /* AppDelegate.swift in Sources */,
+				62E6DB5A1C987EC200FE6DA1 /* Map_ViewViewController.swift in Sources */,
 				62E61F0C1C9670DE003CC981 /* Cell_DetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

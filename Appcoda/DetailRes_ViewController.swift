@@ -93,6 +93,14 @@ class DetailRes_ViewController: UIViewController , UITableViewDataSource,  UITab
         // Dispose of any resources that can be recreated.
     }
     
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showMap" {
+            let destination = segue.destinationViewController as! Map_ViewViewController
+            destination.restaurant = restaurant
+        
+        }
+    }
 
     
 }
